@@ -1,0 +1,79 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  width: 50%;
+  margin: 0 auto;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  height: 3rem;
+  margin-bottom: 2rem;
+}
+
+form > input,
+form > button {
+  border: 1px solid lightgray;
+  height: 100%;
+}
+
+form > input {
+  width: 100%;
+  padding: 0.25rem 1rem;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+form > button {
+  width: 4rem;
+  flex-shrink: 0;
+  border-left: none;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+ul {
+  width: 100%;
+  padding: 0;
+}
+
+li {
+  height: 3rem;
+
+  margin-bottom: 0.5rem;
+  list-style-type: none;
+  padding: 0.25rem 1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  box-sizing: border-box;
+}
+
+li > input {
+  margin-right: 1rem;
+}
+
+li > button {
+  border: 1px solid lightgray;
+  border-radius: 2rem;
+  height: 2rem;
+  width: 2rem;
+  margin-left: auto;
+  flex-shrink: 0;
+}
